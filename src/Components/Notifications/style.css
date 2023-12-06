@@ -1,0 +1,13 @@
+.notification {
+  position: relative;
+}
+.notification::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 7%;
+  width: 3px;
+  height: 100%;
+  border-left: 1px solid var(--main-color);
+  opacity: 0.2;
+}
