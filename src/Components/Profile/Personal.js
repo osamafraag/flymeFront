@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Woman from "./../../Assets/Images/Profile/Woman.jpg"
-import Man from "./../../Assets/Images/Profile/Man.jpg"
+import Woman from "./../../Assets/Images/Woman.jpg"
+import Man from "./../../Assets/Images/Man.jpg"
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPen, faUserXmark, faGauge } from "@fortawesome/free-solid-svg-icons";
