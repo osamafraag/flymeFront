@@ -14,8 +14,8 @@ import { GetMessages } from "../../APIs/Notification";
 import { useEffect, useState } from "react";
 import { setToken } from '../../Store/Slice/Token';
 import { setNotifications, setUnread, setRead, setCounter } from "../../Store/Slice/Notifications";
-import Woman from "./../../Assets/Images/Profile/Woman.jpg"
-import Man from "./../../Assets/Images/Profile/Man.jpg"
+import Woman from "./../../Assets/Images/Woman.jpg"
+import Man from "./../../Assets/Images/Man.jpg"
 
 export default function NavBar() {
   const token = useSelector(state => state.Token.token);
